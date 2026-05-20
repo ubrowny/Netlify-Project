@@ -183,8 +183,13 @@ p{
 .organs-content{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.organs-content img{
+    width: 18%;
 }
 
 .pixelgrade{
@@ -229,11 +234,11 @@ p{
     gap: 1rem;
 }
 
-.about-tim{
+/* .about-tim{
     display: flex;
     align-items: center;
     gap: 5rem;
-}
+} */
 
 .caring-marketing{
     height: 120vh;
